@@ -18,6 +18,12 @@ html {
 
 
 }
+.h4_titles
+{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color:white;
+	font-size: 10mm;
+}
 h1{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color:white;
@@ -105,7 +111,7 @@ h1{
 
 .P1{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 	color: white;
 
 }
