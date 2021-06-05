@@ -6,7 +6,15 @@
   <link rel="stylesheet" href="../styles/minimal-table.css">
 <link rel="stylesheet" href="../styles/mystyles.css">
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  </head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  
+<style>
+.li_textSize
+	{
+		font-size: 1cm;
+	}
+</style>
+
+</head>
 
 
 <!-- <img src="../images/csg4ed-small.png" alt="Enhancing Social Good in Computing"> -->
@@ -61,8 +69,15 @@
 <!-- Main content -->
 <h1 class="h1_title" style="text-align: center; ">What is AI? </h1>
 
-<h2 class="h2_center">“seeks to do make computers do the sorts of things that minds can do”( Boden, M. A. (2016)), </h2>
-
+<div class="row">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-10">
+		<h2 class="h2_center">“seeks to do make computers do the sorts of things that minds can do”( Boden, M. A. (2016)), </h2>
+		<img src="../images/AI1.png" >
+		<p class="P1" style="text-align: center;">(Fig 1.1a AI breakdown)</p>
+	</div>
+	<div class="col-sm-1"></div>
+</div>
 <div class="row">
 	<p class="P1" style="text-align: center;">
 		We chose the risks and opportunities of AI, along with the uses and misuses of this technology.</br>
@@ -83,9 +98,15 @@
 	The logical theorist proved that a machine could work like a human and a base for AI future programming.</br>
 </br>
 	During  1956, the term  “Artificial Intelligence”  was created by John McCarthy at the Dartmouth conference, this was the first time that AI became a part of the academic field.</br>
+</br>
 	In 1966, researchers started emphasizing on developing algorithms that can solve mathematical problems, around this time the AI started to grow and take off as many researchers started looking into ways to use and implement AI.</br>
+</br>
 	During 1980 Expert systems were implemented into AI, this allowed the AI’s programming to simulate decision making abilities of a human expert.</br>
-	
+</br>	
+	In 2002 AI was first brought into the home with the Roomba vacuum.</br>
+</br>
+	During 2006 AI started to be implemented into the business world by companies like Facebook, Twitter and Netflix.</br>
+		
 
 
 </p>
@@ -96,6 +117,7 @@
 <div class="row">
 
 	<h4 class="h4_titles" style="text-align: left; ">Machine Learning</h4>
+	<div class="col-sm-6">
 	<p class="P1">
 		<i>“Machine learning  is an application of artificial intelligence  that provides 
 		systems the ability to automatically learn and improve from experience without being explicitly 
@@ -106,17 +128,38 @@
 	Through this process, machine learning allows the computer to learn automatically   to pick up on patterns  and to make better future decisions.</br> 
 </br></br></p>
 <p class="P1">	Machine learning works on the below algorithms:</br>
-Supervised machine learning algorithms:</br>
+
+<i>Supervised machine learning algorithms:</i></br>
 These algorithms can be used by taking the information from past instructions, being applied to new data from labelled examples to predict future events. </br>
 This algorithm starts with analysing a known dataset, from there the algorithm produces a function that helps predict output values.After sufficient training, the computer is then able to provide targets of any  inserted data. </br>
 This algorithm can then compare its result to  any correct results, so it can be compared and modify the system accordingly.</br>
+</br>
+<i>Semi-supervised machine learning algorithms</i></br>
+Semi-supervised machine learning algorithms is a mix between the supervised and unsupervised  machine learning algorithms. </br>
+The purpose of this algorithm is to use both unlabelled and labelled data, this allows the system to considerably improve learning accuracy.This is only used when the data requires skilled and relevant resources to train it.</br>
+</br>
+<i>Unsupervised machine learning algorithms </i></br>
+This type of algorithm is used only when the  example data is neither labelled or defined. </br>
+Having unsupervised machine learning algorithms shows how the system can infer a function over the unlabelled data.</br>
+This algorithm will not provide result data, but instead show how all the inputted data is related.</br>
+</br>
+</br>
+<i>Reinforced Machine learning algorithms:</i></br>
+This algorithm interacts with its environment by producing actions and discovering errors and rewards.</br>
+This allows the system to determine the ideal behaviour in a specific context to maximise the performance.</br>
+</br>
 
 </p>
-
+</div>
+<div class="col-sm-6">
+	<img style="width: 90%;" src="../images/ML1.png">
+	<p class="P1" style="text-align: center;">(Fig 1.2a Machine learning example)</p>
+</div>
 </div>
 <div class="row">
 	
 		<h4 class="h4_titles"  style="text-align: left;">Deep Learning</h4>
+		<div class="col-sm-6">
 		<p class="P1" >
 			<i>“Deep learning is a subset of machine learning where artificial neural networks, 
 			algorithms inspired by the human brain, learn from large amounts of data”</i></br>
@@ -128,12 +171,17 @@ This algorithm can then compare its result to  any correct results, so it can be
 	    This system works by extracting the features from the image itself, so every step of the process has a function to identify the image. </br>
 	   
 		</p>
-	
+		</div>
+		<div class="col-sm-6">
+			<img style="width: 90%;" src="../images/Deep learning.png">
+			<p class="P1">(Fig 1.3a Deep Learning example) </p>
+		</div>
 </div>
 
 
 <div class="row">
 	<h4 class="h4_titles">Neural Network</h4>
+	<div class="col-sm-6">
 	<p class="P1">
 	<i>	“A neural network (also called an artificial neural network) is an adaptive system that learns by using interconnected nodes or neurons 	
 		in a layered structure that resembles a human brain.”</i></br>
@@ -143,6 +191,11 @@ This algorithm can then compare its result to  any correct results, so it can be
 	This works with AI  by allowing the layers to be used to transfer multiple signals across the system to process the algorithms. This system mimics how the nervous system works and is inspired by it.</br>
 	</p>
 </div>
+<div class="col-sm-6">
+	<img style="width: 90%;" src="../images/Neural Network.jpg">
+	<p class="P1" style="text-align: center;">(Fig 1.4a Neural Network example)</p>
+</div>
+</div>
 <hr/>
 <div>
 
@@ -151,23 +204,42 @@ This algorithm can then compare its result to  any correct results, so it can be
 
 </div>
 </div>
+<div class="row">
+	<h4 style="font-size: 2cm;" class="h4_titles">What is AI made in?</h4>
+	<div class="col-sm-6">
+	<p class="P1" style="font-size: 1cm;" >AI is made by the below common languages:
+	
+		<li class="P1 li_textSize">Java</li>
+		<li class="P1 li_textSize">Python</li>
+		<li class="P1 li_textSize">Prolog</li>
+		<li class="P1 li_textSize">C++</li>
+		<li class="P1 li_textSize">LISP</li>
+	</p>
+</div>
+<div class="col-sm-6">
+	<img src="../images/Example_AI.png">
+	<p class="P1">(Fig 1.5a Example of AI Code)</p>
+</div>
+</div>
+
 <hr/>
 <div class="row">
-	<h4>What is AI made in?</h4>
-	<p>AI is made by the below common languages:</p>
-	<ul>
-		<li>Java</li>
-		<li>Python</li>
-		<li>Prolog</li>
-		<li>C++</li>
-		<li>LISP</li>
-	</ul>
+	<h4 class="h4_titles">Expert Systems</h4>
+	<p class="P1">
+		A large part of AI is the use and inclusion of an expert system.</br>
+	</br>
+		“Expert systems have specific knowledge to one problem domain” (Moné L, (2018, January 18)), this means that the expert system consists of knowledge that is related to people who use it ie. medicine, science, engineering.</br> 
+		The knowledge is loaded from the expert system’s knowledge base, this contains all information regarding the subject. This information can be updated and removed along with new information can also be loaded into the system.</br> 
+		AI uses expert systems as a reference of information, this allows it to pull up relevant information to solve problems.</br>
+</br>
+By having the ability to pull up relevant and usefull information, an AI system can help solve complex problems and sort through large amounts of data in quick time.
+	</p>
 </div>
-<!-- Sign and date the page, it's only polite! -->
-<address>Made 1 March 2021<br>
-  by Tony Clear.</address>
- 
-<p><em>thanks to W3C for tutorial and adapted code from <a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">Style Examples</a></p></em>
-<p><em>also thanks to WDN for HTML and CSS resources and any adapted code snippets from <a href= "https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></p></em>
+
+<div class="row">
+	<h4 class="h4_titles"></h4>
+
+
+</div>
 </body>
  </html>
