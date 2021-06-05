@@ -45,21 +45,28 @@ h1{
 	height: 100px;
 }
 .column-text{
-	text-align: center;
+	text-align: left;
 	font-family: Source Sans Pro, sans-serif, Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; 
-	font-size: 5mm;
+	font-size: 10mm;
 }
 .column-underline{
 	text-decoration: underline;
 	font-size: 50px;
+}
+.list-text
+{
+	font-size: 30px;
+	color: black;
 }
 .column-background{
 
 		border-radius: 25px;
 		background: #ffff;
 		padding: 20px; 
-		width: 20%;
-		height: 700px;  
+		width: 100%;
+		height: 400px; 
+		margin-top: 5mm;
+		margin-bottom: 5mm; 
 	  
 
 }
