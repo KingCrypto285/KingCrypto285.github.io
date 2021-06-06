@@ -249,7 +249,7 @@ address {
 	display: block;
 	padding: 0 15px;
 	line-height: 70px;
-	font-size: 20px;
+	font-size: 17px;
 	background: #063247;
 	transition: .5s;
   }
@@ -278,7 +278,7 @@ address {
 	border-top: none;
   }
   nav ul ul li a{
-	line-height: 50px;
+	line-height: 40px;
   }
   nav ul ul ul{
 	border-top: none;
